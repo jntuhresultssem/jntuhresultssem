@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MC</title>
+	<style type="text/css">
+	    body{
+	        background-image: url("bgimg.jpeg");
+	        background-size: 100%;
+	        margin: 0px;
+	        padding: 0px;
+	    }
+		#a11,#a12,#a13,#a21,#a22,#a23,#a31,#a32,#a33,#b11,#b12,#b13,#b21,#b22,#b23,#b31,#b32,#b33{
+			background-color: lightblue;
+			height: 40px;
+			width:40px;
+			border-radius: 18px;
+			border-color: red;
+			box-shadow: 50%;
+		}
+		h1{
+		    size:100px;
+		    color: green;
+		    padding: 0px;
+		    margin: 0px;
+		    text-align: center;	
+		    text-shadow: 30px;
+		    border-color: red;
+		    font-family:fantasy;
+		}
+		img {
+            border-radius: 50%;
+            width:150px;
+            height:150px;
+}
+	</style>
+</head>
+<body>
+<center>
+	<br>
+	<input type="text" id="a11" size="3" name=""><br>
+	<input type="text" id="a12" size="3" name=""><br>
+	
+
+	<button value="submit" type="sybmit" onclick="but1()"><font size="10" color="red"><b>SUBMIT</b></font></button><br><br><br><br><br><br><br>
+
+
+</center>
+<script type="text/javascript">
+//FUNCTION [LOGIC]
+		function but1() {
+			//roll no and names
+			
+
+
+
+
+			var x11 = document.getElementById("a11").value;
+			var x12 = document.getElementById("a12").value;
+			if (x11 == "23011A0201") {
+				window.open ("file:///Users/code-sk/Desktop/index.html");
+			} else {
+				alert("onok");
+			}
+		}
+	</script>
