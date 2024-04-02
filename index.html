@@ -350,7 +350,10 @@
 			    window.open("E67.html");
 			}
 			if (rc != cap){
-				alert("Enter The Capcha:__");
+				alert("Wrong Capcha:__");
+			}
+			if (rc == ""){
+				alert("Enter The Capcha to Get Results__[NULL CAPCHA FOUND]");
 			}
 			else{
 				document.write("Error 503 Service Unavailable")
